@@ -120,6 +120,12 @@ footer {
   background: #fcb900;
   color: #003366;
 }
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
 
 /* REPARĂ FORMATAREA PE TELEFON */
 .content .container,
@@ -128,6 +134,7 @@ footer {
 .important-links .container {
   display: block;
 }
+
 .contact-form input, .contact-form textarea {
   width: 100%;
   margin-bottom: 10px;
