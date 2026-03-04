@@ -313,8 +313,3 @@ footer {
   display: block;
 }
 
-/* ORICE container din interiorul paginii care nu e header devine block */
-/*main .container,
-section .container {
-  display: block;
-}*/
