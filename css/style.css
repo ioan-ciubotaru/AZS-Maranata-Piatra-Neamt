@@ -314,7 +314,7 @@ footer {
 }
 
 /* ORICE container din interiorul paginii care nu e header devine block */
-main .container,
+/*main .container,
 section .container {
   display: block;
-}
+}*/
