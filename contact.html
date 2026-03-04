@@ -7,6 +7,14 @@
   <link rel="stylesheet" href="css/style.css" />
   <script defer src="js/main.js"></script>
 </head>
+
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script>
+  emailjs.init("3kXTftIijCPZBTaFi"); 
+</script>
+  
 <body>
   <header>
     <div class="container header-content">
@@ -40,11 +48,14 @@
       <div class="contact-form">
         <h2>Trimite-ne un mesaj</h2>
         <form id="contactForm">
-          <input type="text" id="name" placeholder="Nume complet" required>
-          <input type="email" id="email" placeholder="Adresa de email" required>
-          <textarea id="message" rows="5" placeholder="Mesajul tău..." required></textarea>
-          <button type="submit" class="btn-primary">Trimite</button>
-        </form>
+  <input type="text" id="from_name" placeholder="Nume complet" required>
+  <input type="email" id="reply_to" placeholder="Adresa de email" required>
+  <textarea id="message" rows="5" placeholder="Mesajul tău..." required></textarea>
+  <button type="submit" class="btn-primary">Trimite</button>
+</form>
+
+<p id="formMessage"></p>
+        
         <p id="formMessage"></p>
       </div>
     </div>
