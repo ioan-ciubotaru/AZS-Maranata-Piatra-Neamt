@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (form) {
     form.addEventListener("submit", function(e) {
       e.preventDefault();
-      emailjs.send("SERVICE_ID", "TEMPLATE_ID", {
+      emailjs.send("service_gnhlyq6", "template_ore4k6l", {
         from_name: document.getElementById("from_name").value,
         reply_to: document.getElementById("reply_to").value,
         message: document.getElementById("message").value
