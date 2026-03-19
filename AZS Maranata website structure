@@ -1,0 +1,28 @@
+ioan-ciubotaru/AZS-Maranata-Piatra-Neamt/
+│
+├── index.html
+├── contact.html
+├── consiliere.html
+├── about.html
+├── program.html
+├── departamente.html
+│
+├── css/
+│   └── (your CSS files)
+│
+├── js/
+│   ├── main.js (KEEP EXISTING - with EmailJS)
+│   └── main-backend.js (NEW - without EmailJS, ready for weekend)
+│
+├── backend/
+│   ├── server.js (NEW)
+│   ├── .env (NEW - NOT committed to GitHub)
+│   └── package.json (NEW)
+│
+├── admin/
+│   └── admin.html (NEW)
+│
+├── docs/
+│   └── SETUP.md (NEW)
+│
+└── .gitignore (UPDATE to include backend/.env)
