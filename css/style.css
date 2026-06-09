@@ -83,6 +83,24 @@ nav a:hover {
   padding: 20px;
 }
 
+/* ---------------- HERO CAPTION ---------------- */
+.hero-caption {
+  text-align: center;
+  padding: 24px 20px 10px;
+  background: #fafafa;
+}
+
+.hero-caption h1 {
+  font-size: 2rem;
+  color: #003366;
+  margin: 0 0 16px;
+}
+
+.hero-caption .btn-primary {
+  display: inline-block;
+  margin: 0 auto;
+}
+
 /* ---------------- BUTTON ---------------- */
 .btn-primary {
   background: #fcb900;
