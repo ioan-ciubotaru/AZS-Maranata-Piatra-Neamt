@@ -47,21 +47,29 @@ nav a:hover {
 
 /* ---------------- HERO ---------------- */
 .hero {
-  background: url('../assets/images/image00001.JPG') no-repeat center top;
-  background-size: auto;
+  position: relative;
   width: 100%;
-  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: blue;
+  color: white;
   overflow: hidden;
 }
 
-.hero-text h1 {
-  font-size: 2.5em;
+.hero-bg {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
+
+.hero-text {
+  position: absolute;
+  z-index: 2;
+  padding: 20px;
+}
+
 
 /* ---------------- BUTTON ---------------- */
 .btn-primary {
