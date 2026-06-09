@@ -47,15 +47,15 @@ nav a:hover {
 
 /* ---------------- HERO ---------------- */
 .hero {
-  background: url('../assets/images/image00001.JPG') no-repeat center center;
+  background: url('../assets/images/image00001.JPG') no-repeat center top;
   background-size: auto;
   width: 100%;
-  min-height: 60vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: blue;
   overflow: hidden;
 }
 
