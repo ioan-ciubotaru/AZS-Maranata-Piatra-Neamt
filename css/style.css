@@ -264,29 +264,7 @@ footer {
 }
 
 /* ---------------- GALERIE ---------------- */
-/*.gallery {
-  padding: 40px 20px;
-  background: #ffffff;
-  text-align: center;
-}
 
-.gallery-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.gallery-grid figure {
-  margin: 0;
-  max-width: 280px;
-}
-
-.gallery-grid img {
-  width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.08);
-}*/
 
 /* ---------------- DONATII ---------------- */
 .donations {
