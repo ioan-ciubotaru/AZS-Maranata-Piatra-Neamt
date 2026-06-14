@@ -264,7 +264,7 @@ footer {
 }
 
 /* ---------------- GALERIE ---------------- */
-.gallery {
+/*.gallery {
   padding: 40px 20px;
   background: #ffffff;
   text-align: center;
@@ -286,9 +286,9 @@ footer {
   width: 100%;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.08);
-}
+}*/
 
-/* ---------------- DONAÈšII ---------------- */
+/* ---------------- DONATII ---------------- */
 .donations {
   padding: 40px 20px;
   text-align: center;
