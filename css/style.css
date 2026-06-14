@@ -403,6 +403,7 @@ footer {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
+    box-sizing: border-box;   /* <-- add this line */
 }
 
 .album-event {
