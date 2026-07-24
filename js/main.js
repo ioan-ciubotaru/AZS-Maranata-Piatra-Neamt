@@ -126,3 +126,28 @@ document.addEventListener("keydown", (e) => {
   }
 });
 });
+// Hamburger menu
+const hamburger = document.getElementById('hamburger');
+const nav = document.getElementById('main-nav');
+
+// Create overlay element
+const overlay = document.createElement('div');
+overlay.classList.add('nav-overlay');
+document.body.appendChild(overlay);
+
+function toggleMenu() {
+  hamburger.classList.toggle('open');
+  nav.classList.toggle('open');
+  overlay.classList.toggle('open');
+  document.body.style.overflow = nav.classList.contains('open') ? 'hidden' : '';
+}
+
+hamburger.addEventListener('click', toggleMenu);
+overlay.addEventListener('click', toggleMenu);
+
+// Close menu when a link is clicked
+nav.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    if (nav.classList.contains('open')) toggleMenu();
+  });
+});
